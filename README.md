@@ -69,7 +69,7 @@ Key files:
 
 - `manifest.json` — extension metadata & permissions
 - `background.js` — captures network requests and forwards them to the popup
-- `popup.html`, `popup.css`, `popup.js` — popup UI and logic
+- `popup.html`, `style.css`, `popup.js` — popup UI and logic
 - `icons/` — extension icons
 
 Local dev tips:
