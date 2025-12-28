@@ -1,0 +1,95 @@
+body {
+  font-family: system-ui;
+  background: #0f0f12;
+  color: #eee;
+  margin: 8px;
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+}
+.titlebar {
+  display: flex;
+}
+
+.export-btn {
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 15px;
+  height: 30px;
+  background: #238636;
+}
+
+.toolbar {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+input, select, button {
+  background: #1a1a22;
+  color: #fff;
+  border: none;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.req {
+  background: #16161d;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.method {
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.GET { background: #1f6feb; }
+.POST { background: #238636; }
+.PUT { background: #9e6a03; }
+.DELETE { background: #da3633; }
+
+.status {
+  margin-left: 6px;
+}
+
+.s2 { color: #3fb950; }
+.s4 { color: #f85149; }
+.s5 { color: #ff7b72; }
+
+.url {
+  font-size: 12px;
+  opacity: 0.85;
+  word-break: break-all;
+  margin-top: 4px;
+}
+
+.buttons button {
+  margin-top: 6px;
+  margin-right: 4px;
+}
+hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 12px 0;
+}
+.footer {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 11px;
+  opacity: 0.6; 
+  text-align: center;
+}

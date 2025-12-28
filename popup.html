@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>API Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+<div class="titlebar">
+  <h1 class="title">API Inspector</h1>
+  <button class="export-btn" id="export">Export JSON</button>
+</div>
+
+<div class="toolbar">
+  <input id="search" placeholder="Search URL / method">
+  <select id="methodFilter">
+    <option value="">All</option>
+    <option>GET</option>
+    <option>POST</option>
+    <option>PUT</option>
+    <option>DELETE</option>
+  </select>
+  <select id="statusFilter">
+    <option value="">Any</option>
+    <option value="2">2xx</option>
+    <option value="4">4xx</option>
+    <option value="5">5xx</option>
+  </select>
+</div>
+<hr>
+<div id="stats"></div>
+<br>
+<div id="requests"></div>
+
+</div>
+<section class="footer" style="text-align: center; font-size: 12px; color: #888;">
+  <hr><p>Developed by ReverseMohan. <br>
+  &copy; 2025 ReverseMohan. All rights reserved.</p>
+</section>
+<script src="popup.js"></script>
+</body>
+</html>
