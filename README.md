@@ -6,7 +6,7 @@ A lightweight Chrome extension that captures and displays API requests made by w
 
 ---
 
-## ✨ Features
+## Features
 
 - Live list of captured requests (URL, method, status, headers)
 - Search and filter by method and status
@@ -16,7 +16,7 @@ A lightweight Chrome extension that captures and displays API requests made by w
 
 ---
 
-## 🧭 How it works
+## How it works
 
 - `background.js` listens to `chrome.webRequest.onCompleted` and sends request data to the popup via `chrome.runtime.sendMessage`.
 - `popup.js` receives messages and maintains an in-memory `requests` array that the UI renders and filters.
@@ -24,7 +24,7 @@ A lightweight Chrome extension that captures and displays API requests made by w
 
 ---
 
-## 🚀 Installation / Usage
+## Installation / Usage
 
 1. Open `chrome://extensions`
 2. Enable **Developer mode** (toggle in the top-right)
@@ -36,7 +36,7 @@ A lightweight Chrome extension that captures and displays API requests made by w
 
 ---
 
-## ⚙️ Notes & Troubleshooting
+## Notes & Troubleshooting
 
 - The provided `manifest.json` currently contains these permissions:
 
@@ -57,12 +57,6 @@ A lightweight Chrome extension that captures and displays API requests made by w
 
 ---
 
-## ⚠️ Disclaimer (Educational Use) 💡
-
-This extension is provided for educational and testing purposes only. Do not use it to intercept, collect, or expose private or sensitive information without proper authorization. Respect privacy, applicable laws, and service terms. The author is not responsible for misuse or damages resulting from the extension.
-
----
-
 ## 🛠️ Development
 
 Key files:
@@ -72,15 +66,14 @@ Key files:
 - `popup.html`, `style.css`, `popup.js` — popup UI and logic
 - `icons/` — extension icons
 
-Local dev tips:
-- Make small changes, then reload the extension on `chrome://extensions` to test them.
-- Use `console.log` in `background.js` and the popup DevTools to inspect messages.
+---
+
+## ⚠️ Disclaimer (Educational Use) 
+
+This extension is provided for educational and testing purposes only. Do not use it to intercept, collect, or expose private or sensitive information without proper authorization. Respect privacy, applicable laws, and service terms. We are not responsible for misuse or damages resulting from the extension.
 
 ---
 
-## Contributing & License
 
-Contributions are welcome — open an issue or submit a PR. Include short, focused changes and a clear description of why.
 
-This project has no explicit license in the repo; add a `LICENSE` file if needed.
 
